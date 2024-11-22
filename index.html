@@ -1,54 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link rel="stylesheet" href="./src/output.css">
-  <title>Frontend Mentor | Maker pre-launch landing page</title>
-</head>
-<body>
-  Get paid for the work you love to do.
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./src/output.css" />
+    <title>Frontend Mentor | Maker pre-launch landing page</title>
+  </head>
+  <body class="bg-#080C20">
+    <header
+      class="mb-36 mt-10 overflow-hidden md:mb-[109px] md:mt-12 lg:mb-[202px] lg:mt-20"
+    >
+      <!-- logo -->
+      <img
+        src="./assets/logo.svg"
+        alt="logo"
+        class="mx-auto mb-[67px] md:mx-10 lg:mx-[165px]"
+      />
+      <!-- logo -->
 
-  The 9-5 grind is so last century. We believe in living life on your 
-  own terms. Whether you’re looking to escape the rat race or set up 
-  a side hustle, we’ve got you covered.
+      <div class="relative">
+        <!-- hero illustration mobile -->
+        <img
+          src="./assets/illustration-hero-mobile.png"
+          alt="illustration hero mobile"
+          class="block min-w-[410px] md:hidden"
+        />
+        <!-- hero illustration mobile -->
 
-  Indulge your passions
-  Your passions shouldn't be just for the weekend. Earn a living doing what you love.
+        <!-- hero illustration tablet & desktop -->
+        <div
+          class="hidden items-center justify-center gap-12 md:flex xl:items-start xl:gap-28"
+        >
+          <img
+            src="./assets/illustration-hero-left.svg"
+            alt="illustration-hero-left"
+            class="max-w-[314px] lg:max-w-full"
+          />
+          <img
+            src="./assets/bg-hero-squiggle.svg"
+            alt="background hero squiggle"
+            class="max-w-[386px] lg:max-w-full"
+          />
+          <img
+            src="./assets/illustration-hero-right.svg"
+            alt="illustration hero right"
+            class="max-w-[317px] lg:max-w-full"
+          />
+        </div>
+        <!-- hero illustration tablet & desktop -->
 
-  Gain financial freedom
-  Start making money work for you. There’s nothing quite like earning while you sleep. 
-
-  Choose your lifestyle
-  Own your daily schedule. Fancy a lie-in? Go for it! Take charge of your week.
-
-  Work from anywhere
-  Selling online means not being pinned down. Want to work AND travel? Go for it!
-
-  Our pricing plans
-  We only make money when our creators make money. Our plans are always affordable, and 
-  it’s completely free to get started.
-
-  Dip your toe
-  Just getting started? No problem at all! Our free plan will take you a long way.
-  Free
-  Unlimited products
-  Basic analytics
-  Limited marketplace exposure
-  10% fee per transaction
-
-  Dive right in
-  Ready for the big time? Our paid plan will help you take your business to the next level.
-  $25.00 /month
-  Custom domain
-  Advanced analytics and reports
-  High marketplace visibility
-  5% fee per transaction
-
-  Get notified when we launch
-  Email address
-  Get notified
-</body>
+        <!-- hero content -->
+        <div
+          class="mx-auto mt-12 max-w-[457px] px-6 text-center md:absolute md:left-1/2 md:top-1/2 md:mt-0 md:-translate-x-1/2 md:-translate-y-1/2 md:px-0 lg:max-w-[540px]"
+        >
+          <h1
+            class="mb-6 text-[32px] font-extrabold leading-10 text-white md:px-10 lg:px-4 lg:text-5xl lg:leading-[56px]"
+          >
+            Get paid for the work you <span class="text-#3EE9E5">love</span> to
+            do.
+          </h1>
+          <p class="mb-8 text-[15px] leading-[25px] text-#777F98">
+            The 9-5 grind is so last century. We believe in living life on your
+            own terms. Whether you’re looking to escape the rat race or set up a
+            side hustle, we’ve got you covered.
+          </p>
+          <img
+            src="./assets/icon-scroll.svg"
+            alt="icon scroll"
+            class="mx-auto"
+          />
+        </div>
+        <!-- hero content -->
+      </div>
+    </header>
+  </body>
 </html>
