@@ -9,7 +9,7 @@ This is a solution to the [Maker pre-launch landing page challenge on Frontend M
 ### Links
 
 - Solution URL: [Solution URL here](https://github.com/NDK1195/maker-pre-launch-landing-page)
-- Live Site URL: [Live site URL here](https://ndk1195.github.io/huddle-landing-page-with-single-introductory-section/)
+- Live Site URL: [Live site URL here](https://ndk1195.github.io/maker-pre-launch-landing-page/)
 
 ### Built with
 
