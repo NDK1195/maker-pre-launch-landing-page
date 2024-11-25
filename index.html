@@ -350,5 +350,46 @@
       </section>
       <!-- pricing plans -->
     </main>
+
+    <footer
+      class="relative overflow-hidden pb-[164px] md:pb-[119px] lg:pb-[159px]"
+    >
+      <img
+        src="./assets/bg-footer-squiggle.svg"
+        alt="background footer squiggle"
+        class="relative left-1/2 w-full min-w-[584px] -translate-x-1/2 md:-left-[240px] md:min-w-[1022px] md:translate-x-0 lg:-left-[224px] lg:min-w-[1664px] 2xl:left-0"
+      />
+
+      <div
+        class="absolute left-1/2 top-0 w-full -translate-x-1/2 px-6 text-center md:w-[476px] md:px-0"
+      >
+        <h2
+          class="mb-[31px] px-10 text-2xl font-extrabold leading-none text-white md:mb-[29px] md:px-0 lg:mb-[42px] lg:text-[32px]"
+        >
+          Get notified when we launch
+        </h2>
+        <form class="flex flex-col gap-6 md:flex-row md:gap-4" id="form">
+          <div>
+            <input
+              type="text"
+              class="h-12 w-full rounded-3xl border-2 border-#FF2965 border-opacity-0 bg-#093F68 pl-[18px] text-[15px] font-extrabold leading-[25px] text-white outline-none placeholder:text-opacity-40 md:w-[320px]"
+              placeholder="Email address"
+              id="input"
+            />
+            <p
+              id="error"
+              class="mt-1 hidden pl-[18px] text-left text-xs leading-[25px] text-#FF2965"
+            ></p>
+          </div>
+          <button
+            type="submit"
+            class="h-12 w-full rounded-3xl border-2 border-#3EE9E5 bg-#3EE9E5 text-[15px] font-extrabold leading-[25px] text-#093F68 transition-colors hover:bg-#080C20 hover:text-white md:w-[140px]"
+          >
+            Get notified
+          </button>
+        </form>
+      </div>
+    </footer>
+    <script src="./src/script.js"></script>
   </body>
 </html>
